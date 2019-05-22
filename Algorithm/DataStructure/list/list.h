@@ -7,8 +7,8 @@
 #define DEBUG 0
 
 typedef struct ListNode {
-    int value;
-    struct ListNode *next;
+  int value;
+  struct ListNode *next;
 } ListNode;
 
 ListNode *listNewNode(int value);
