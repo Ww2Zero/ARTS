@@ -2,28 +2,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ALEN(a) (sizeof(a) / sizeof(a[0]))
+#define ARRAY_LEN(a) (sizeof(a) / sizeof(a[0]))
 
 int main(void) {
 
   int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
   printf("List:\n");
-  ListNode *head = listCreate(a, ALEN(a));
+    ListNode *head = listCreate(a, ARRAY_LEN(a));
   listTraverse(head);
 
   printf("Del Node 4\n");
   head = listDelNode(head, 4);
   listTraverse(head);
 
-  head = listDelNode(head, 5);
-  head = listAddNodeTail(head, 7);
-  printf("Del Node 5, Add Tail 7\n");
+    head = listDelNode(head, 11);
+    printf("Del Node 11\n");
   listTraverse(head);
 
-  head = listDelNode(head, 7);
-  head = listAddNodeTail(head, 8);
-  head = listAddNodeHead(head, 9);
-  printf("Del Node 7, Add Tail 8, Add Head 9\n");
+    head = listAddNodeTail(head, 11);
+    head = listAddNodeHead(head, 0);
+    printf("Add Tail 11, Add Head 0\n");
   listTraverse(head);
 
   head = listDelNodeHead(head);
