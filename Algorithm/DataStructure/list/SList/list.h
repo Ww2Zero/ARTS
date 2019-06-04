@@ -1,5 +1,5 @@
-#ifndef __ASLIST_H__
-#define __ASLIST_H__
+#ifndef ZERO_SLIST_H
+#define ZERO_SLIST_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,4 +31,4 @@ void listRelease(ListNode *head);
 
 void listTraverse(ListNode *head);
 
-#endif
+#endif //ZERO_SLIST_H
