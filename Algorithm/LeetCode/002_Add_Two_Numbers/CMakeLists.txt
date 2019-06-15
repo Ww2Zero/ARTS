@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(002_Add_Two_Numbers)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(002_Add_Two_Numbers test.cpp solution.h)
