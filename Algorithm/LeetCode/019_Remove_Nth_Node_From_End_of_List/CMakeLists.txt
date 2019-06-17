@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(019_Remove_Nth_Node_From_End_of_List)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(019_Remove_Nth_Node_From_End_of_List test.cpp solution.h)
