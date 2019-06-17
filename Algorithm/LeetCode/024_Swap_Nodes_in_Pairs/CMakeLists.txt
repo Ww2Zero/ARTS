@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(024_Swap_Nodes_in_Pairs)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(024_Swap_Nodes_in_Pairs test.cpp solution.h)
