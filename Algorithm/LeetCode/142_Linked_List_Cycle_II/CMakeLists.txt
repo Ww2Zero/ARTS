@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(142_Linked_List_Cycle_II)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(142_Linked_List_Cycle_II test.cpp solution.h)
