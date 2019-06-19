@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(160_Intersection_of_Two_Linked_Lists)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(160_Intersection_of_Two_Linked_Lists test.cpp solution.h)
