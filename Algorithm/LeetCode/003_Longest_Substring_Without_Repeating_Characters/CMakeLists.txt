@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(003_Longest_Substring_Without_Repeating_Characters)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(003_Longest_Substring_Without_Repeating_Characters test.cpp solution.h)
