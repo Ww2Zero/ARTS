@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(014_Longest_Common_Prefix)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(014_Longest_Common_Prefix test.cpp solution.h)
