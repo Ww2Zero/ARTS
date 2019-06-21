@@ -37,6 +37,6 @@ void assertDeleteDuplicates(vector<int> l1, vector<int> l2) {
 int main() {
     assertDeleteDuplicates(vector<int>{1, 1, 2, 3}, vector<int>{2, 3});
     assertDeleteDuplicates(vector<int>{1, 2, 3, 3, 4, 4, 5}, vector<int>{1, 2, 5});
-    assertDeleteDuplicates(vector<int>{1, 2, 3, 3, 4, 4, 5,5}, vector<int>{1, 2});
+    assertDeleteDuplicates(vector<int>{1, 2, 3, 3, 4, 4, 5, 5}, vector<int>{1, 2});
     return 0;
 }
