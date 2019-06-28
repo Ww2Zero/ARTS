@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(017_Letter_Combinations_of_a_Phone_Number)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(017_Letter_Combinations_of_a_Phone_Number test.cpp solution.h)
