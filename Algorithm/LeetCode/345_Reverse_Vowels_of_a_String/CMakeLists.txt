@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(345_Reverse_Vowels_of_a_String)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(345_Reverse_Vowels_of_a_String test.cpp solution.h)
