@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(016_3Sum_Closest)
+SET(CMAKE_C_COMPILER g++)
+add_compile_options(-std=c++11)
+add_executable(016_3Sum_Closest test.cpp solution.h)
